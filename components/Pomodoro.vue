@@ -1,7 +1,7 @@
 <template>
-    <div class="md:p-4 p-2 flex flex-col justify-center">
+    <div class="md:p-6 p-2 flex flex-col justify-center">
       <Card :class="cardBgColor" class="text-white">
-        <CardHeader>
+        <CardHeader class="p-4 md:p-6">
           <CardTitle>Pomodoro Technique</CardTitle>
           <CardDescription class="text-white">This technique helps maintain concentration, avoid burnout, and improve overall productivity.</CardDescription>
         </CardHeader>
@@ -29,7 +29,7 @@
               Long Break
             </Button>
           </div>
-          <div class="text-center p-6 m-6">
+          <div class="text-center md:p-6 p-4 m-6">
             <h3 class="flex items-center justify-center text-6xl">{{ formattedTime }}</h3>
           </div>
           <div class="flex justify-center mt-6">
@@ -125,9 +125,9 @@
       case timer_type_pomodoro:
         return 'bg-[#c65151]';
       case timer_type_shortbreak:
-        return 'bg-[#397097]'; // Example color for short break
+        return 'bg-[#38858a]'; // Example color for short break
       case timer_type_longbreak:
-        return 'bg-[#4a90e2]'; // Example color for long break
+        return 'bg-[#397097]'; // Example color for long break
       default:
         return 'bg-[#c65151]';
     }
@@ -138,9 +138,9 @@
       case timer_type_pomodoro:
         return 'text-[#c65151]';
       case timer_type_shortbreak:
-        return 'text-[#397097]'; // Example color for short break
+        return 'text-[#38858a]'; // Example color for short break
       case timer_type_longbreak:
-        return 'text-[#4a90e2]'; // Example color for long break
+        return 'text-[#397097]'; // Example color for long break
       default:
         return 'text-[#c65151]';
     }

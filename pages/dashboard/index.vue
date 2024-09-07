@@ -9,6 +9,7 @@
         <p class="text-slate-500">If you are working on something that you really care about, you don't have to be pushed.</p>
         <Separator class="h-2 "/>
         <div class="flex mt-2 gap-8 justify-between flex-col md:flex-row">
+            <Pomodoro class="md:w-[30%]"/>
             <div class="md:w-[60%]">
                 <div class="flex justify-between align-center p-2">
                     <h1 class="text-2xl font-bold mb-3">Study Material</h1>
@@ -76,7 +77,7 @@
          
                 </div>
             </div>
-            <Pomodoro class="md:w-[30%]"/>
+            
             <div class="md:w-[30%]  ">
                 <DailyChart />
             </div>
