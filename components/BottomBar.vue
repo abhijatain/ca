@@ -77,24 +77,7 @@
       </Tooltip>
     </TooltipProvider>
   </nav>
-  <nav class="flex flex-row justify-center w-full items-center gap-4 px-2 sm:py-3">
-    <TooltipProvider>
-      <Tooltip>
-        <TooltipTrigger as-child>
-          <a
-            href="#"
-            class="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
-          >
-            <Settings class="h-5 w-5" />
-            <span class="sr-only">Settings</span>
-          </a>
-        </TooltipTrigger>
-        <TooltipContent side="top">
-          Settings
-        </TooltipContent>
-      </Tooltip>
-    </TooltipProvider>
-  </nav>
+
 </aside>
 
 </template>
