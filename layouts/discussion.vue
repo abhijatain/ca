@@ -33,7 +33,7 @@
     </div>
 
     <!-- Separator -->
-    <Separator class="h-1" />
+    <Separator class="h-1 bg-primary"/>
 
     <!-- Header Slot (Named Slot) -->
     <header>

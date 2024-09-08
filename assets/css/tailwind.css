@@ -8,7 +8,7 @@
  
       
     
-        --vis-primary-color: 207.2 96.4 21.6 ;
+        --vis-primary-color: var(--primary) ;
         /* change to any hsl value you want */
         --vis-secondary-color: 160 81% 40%;
         --vis-text-color: var(--muted-foreground);
@@ -44,34 +44,42 @@
     --radius: 0.5rem;
   }
    
-  .dark {
-    --background:20 14.3% 4.1%;
-    --foreground:0 0% 95%;
-  
-    --card:24 9.8% 10%;
-    --card-foreground:0 0% 95%;
-  
-    --popover:0 0% 9%;
-    --popover-foreground:0 0% 95%;
-  
-    --primary:142.1 70.6% 45.3%;
-    --primary-foreground:144.9 80.4% 10%;
-  
-    --secondary:240 3.7% 15.9%;
-    --secondary-foreground:0 0% 98%;
-  
-    --muted:0 0% 15%;
-    --muted-foreground:240 5% 64.9%;
-  
-    --accent:12 6.5% 15.1%;
-    --accent-foreground:0 0% 98%;
-  
-    --destructive:0 62.8% 30.6%;
-    --destructive-foreground:0 85.7% 97.3%;
-  
-    --border:240 3.7% 15.9%;
-    --input:240 3.7% 15.9%;
-    --ring:142.4 71.8% 29.2%;
+  .dark  {
+    /* Name: custom color palette
+       Author: Ilias Ism
+       URL: https://gradient.page */
+
+    /* CSS: .bg-gradient { background: var(--gradient) } */
+    --gradient: #145886;
+
+    --background: 217 48.1% 2.4%;
+    --foreground: 217 7.4% 96.5%;
+
+    --muted: 217 37% 9%;
+    --muted-foreground: 217 7.4% 53%;
+
+    --popover: 217 50.2% 3.9%;
+    --popover-foreground: 217 7.4% 96.5%;
+
+    --card: 217 50.2% 3.9%;
+    --card-foreground: 217 7.4% 96.5%;
+
+    --border: 217 37% 9%;
+    --input: 217 37% 9%;
+
+    --primary: 217 74% 30%;
+    --primary-foreground: 217 7.4% 96.5%;
+
+    --secondary: 217 37% 9%;
+    --secondary-foreground: 217 7.4% 96.5%;
+
+    --accent: 217 37% 9%;
+    --accent-foreground: 217 7.4% 96.5%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 217 7.4% 96.5%;
+
+    --ring: 217 74% 30%;
   }
 }
 

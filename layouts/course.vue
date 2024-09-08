@@ -45,7 +45,7 @@
             </div>
         </div>     
     </div>
-    <Separator class="h-1"/>
+    <Separator class="h-1 bg-primary"/>
     <div class="md:ms-14 flex flex-row mb-14">
         <div class="w-[15%]  p-2 h-screen hidden md:block">
             <CourseNav />

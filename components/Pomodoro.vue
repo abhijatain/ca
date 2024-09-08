@@ -123,26 +123,26 @@
   const cardBgColor = computed(() => {
     switch (pomodoroType.value) {
       case timer_type_pomodoro:
-        return 'bg-[#c65151]';
+        return 'bg-[#F05A7E]';
       case timer_type_shortbreak:
-        return 'bg-[#38858a]'; // Example color for short break
+        return 'bg-[#0B8494]'; // Example color for short break
       case timer_type_longbreak:
-        return 'bg-[#397097]'; // Example color for long break
+        return 'bg-[#125B9A]'; // Example color for long break
       default:
-        return 'bg-[#c65151]';
+        return 'bg-[#F05A7E]';
     }
   });
   
   const buttonColor = computed(() => {
     switch (pomodoroType.value) {
       case timer_type_pomodoro:
-        return 'text-[#c65151]';
+        return 'text-[#F05A7E]';
       case timer_type_shortbreak:
-        return 'text-[#38858a]'; // Example color for short break
+        return 'text-[#0B8494]'; // Example color for short break
       case timer_type_longbreak:
-        return 'text-[#397097]'; // Example color for long break
+        return 'text-[#125B9A]'; // Example color for long break
       default:
-        return 'text-[#c65151]';
+        return 'text-[#F05A7E]';
     }
   });
   </script>

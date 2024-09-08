@@ -91,6 +91,7 @@
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>
+        <DarkMode />
       </nav>
       <nav class="mt-auto flex flex-col items-center gap-4 px-2 sm:py-5">
         <TooltipProvider>
@@ -109,6 +110,7 @@
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>
+       
       </nav>
     </aside>
 </template>
