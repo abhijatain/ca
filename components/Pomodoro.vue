@@ -34,7 +34,7 @@
           </div>
           <div class="flex justify-center mt-6">
             <Button
-              class="text-4xl px-14 py-6"
+              class="text-4xl px-14 py-6 bg-white"
               :class="buttonColor"
               variant="outline"
               @click="startTimer"
@@ -43,7 +43,7 @@
               Start
             </Button>
             <Button
-              class="text-4xl px-14 py-6"
+              class="text-4xl px-14 py-6 bg-white"
               :class="buttonColor"
               variant="outline"
               @click="stopTimer"
