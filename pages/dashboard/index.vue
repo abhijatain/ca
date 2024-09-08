@@ -23,7 +23,7 @@ import DarkMode from '~/components/DarkMode.vue';
                 
                 <div class="flex gap-6 flex-col md:flex-row ">
                     <Card class="md:w-[300px]">
-                    <CardHeader class="bg-primary text-white">
+                    <CardHeader class="dark:bg-primary bg-[#F05A7E] text-white">
                         <CardTitle>
                             Foundation
                         </CardTitle>
@@ -42,7 +42,7 @@ import DarkMode from '~/components/DarkMode.vue';
                     </CardContent>
                 </Card>
                 <Card class="md:w-[300px]">
-                    <CardHeader class="bg-primary text-white">
+                    <CardHeader class="dark:bg-primary bg-[#F05A7E] text-white">
                         <CardTitle>
                             Inter
                         </CardTitle>
@@ -61,7 +61,7 @@ import DarkMode from '~/components/DarkMode.vue';
                     </CardContent>
                 </Card>
                 <Card class="md:w-[300px]">
-                    <CardHeader class="bg-primary text-white">
+                    <CardHeader class="dark:bg-primary bg-[#F05A7E] text-white">
                         <CardTitle>
                             Finals
                         </CardTitle>
